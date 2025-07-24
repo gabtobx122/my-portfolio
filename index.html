@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabtobx Tech Genius - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Gabtobx Tech Genius</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="hire-btn">Hire Me</a></li>
+            </ul>
+            <button class="mobile-menu" id="mobileMenu">☰</button>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Amosun Toba Monday</h1>
+        <p class="subtitle">Professional Website Designer & Graphics Artist specializing in modern, responsive designs that bring your vision to life.</p>
+        <a href="#portfolio" class="cta-btn">View My Work</a>
+    </section>
+
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <div class="about-image">
+            <img src="des.png" alt="Amosun Toba Monday - Web Designer">
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate web designer and graphics artist with expertise in creating stunning digital experiences. My goal is to help businesses and individuals establish a strong online presence through innovative design and user-friendly interfaces.</p>
+                <p>With years of experience in the industry, I specialize in responsive web design, brand identity, and digital marketing materials that make an impact.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Web Design</h3>
+                    <p>Responsive & Modern</p>
+                    <button class="pro">
+                        <a href="https://wa.me/08121778762">Get one</a>
+                    </button>
+                </div>
+                <div class="skill-card">
+                    <h3>Graphics Design</h3>
+                    <p>Creative & Professional</p>
+                    <button class="pro">
+                        <a href="https://wa.me/08121778762">Get one</a>
+                    </button>
+                </div>
+                <div class="skill-card">
+                    <h3>Logo Design</h3>
+                    <p>Brand Identity</p>
+                    <button class="pro">
+                        <a href="https://wa.me/08121778762">Get one</a>
+                    </button>
+                </div>
+                <div class="skill-card">
+                    <h3>GitHub Hosting</h3>
+                    <p>Project Management</p>
+                    <button class="pro">
+                        <a href="https://wa.me/08121778762">Get one</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-tabs">
+            <button class="tab-btn active" data-tab="all">All Projects</button>
+            <button class="tab-btn" data-tab="websites">Websites</button>
+            <button class="tab-btn" data-tab="graphics">Graphics</button>
+            <button class="tab-btn" data-tab="videos">Videos</button>
+        </div>
+        
+        <div class="portfolio-grid" id="portfolioGrid">
+            <!-- Website Projects -->
+            <div class="portfolio-item" data-category="websites">
+                <img src="web (1).png" alt="E-commerce Website">
+                <div class="portfolio-item-content">
+                    <h3>E-commerce Website</h3>
+                    <p>Modern responsive e-commerce platform with booking functionality</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="websites">
+                <img src="bus.png" alt="Business Website"> 
+                <div class="portfolio-item-content">
+                    <h3>Business Portfolio</h3>
+                    <p>Professional business website with contact forms and service pages</p>
+                </div>
+            </div>
+            
+            <!-- Graphics Projects -->
+            <div class="portfolio-item" data-category="graphics">
+                <img src="logo2 (1).png" alt="Logo Design"> 
+                <div class="portfolio-item-content">
+                    <h3>Brand Logo Design</h3>
+                    <p>Creative logo design for bakery startup company</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="graphics">
+                <img src="flyer (1).png" alt="Flyer Design"> 
+                <div class="portfolio-item-content">
+                    <h3>Event Flyer</h3>
+                    <p>Eye-catching flyer design for clothe store brand</p>
+                </div>
+            </div>
+            
+            <!-- Video Projects -->
+            <div class="portfolio-item" data-category="videos">
+                <video controls><source src="vid2.mp4" type="video/mp4"></video> 
+                <div class="portfolio-item-content">
+                    <h3>Brand Animation</h3>
+                    <p>Animated logo reveal and brand introduction video</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="videos">
+                <video controls><source src="vid1.mp4" type="video/mp4"></video> 
+                <div class="portfolio-item-content">
+                    <h3>Product Demo</h3>
+                    <p>Professional product demonstration and marketing video</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <h2>My Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon">🌐</div>
+                <h3>Website Design</h3>
+                <p>Responsive, modern websites that look great on all devices and drive results</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">🎨</div>
+                <h3>Graphic Design</h3>
+                <p>Creative visual solutions for your brand including logos, flyers, and marketing materials</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">💻</div>
+                <h3>GitHub Hosting</h3>
+                <p>Professional project hosting and version control for your web applications</p>
+            </div>
+            <div class="service-card">
+                <div class="icon">🎯</div>
+                <h3>Brand Identity</h3>
+                <p>Complete brand identity packages including logos, color schemes, and style guides</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Let's Work Together</h3>
+                <p>Ready to bring your vision to life? Contact me for a consultation and let's create something amazing together.</p>
+                
+                <div class="contact-item">
+                    <div class="icon">📱</div>
+                    <a href="https://wa.me/2349073153266">DM and let's get your work done</a>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="icon">📧</div>
+                    <a href="mailto:amosun897@gmail.com">Email me</a>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="icon">🐙</div>
+                    <a href="https://github.com/amosuntoba" target="_blank">github.com/amosuntoba</a>
+                </div>
+            </div>
+            
+            <div class="contact-info">
+                <h3>Why Choose Me?</h3>
+                <ul style="color: #d4d4d8; line-height: 2;">
+                    <li>✅ Fast delivery and reliable service</li>
+                    <li>✅ Modern, responsive designs</li>
+                    <li>✅ Affordable pricing packages</li>
+                    <li>✅ Unlimited revisions until satisfied</li>
+                    <li>✅ 24/7 customer support</li>
+                </ul>
+            </div>
+            
+            <div class="contact">
+                <h3>Opening Hours</h3>
+                <ul style="color: #d4d4d8; line-height: 2;">
+                    <li>Monday: 6am to 8pm</li>
+                    <li>Tuesday: 7am to 6pm</li>
+                    <li>Wednesday: 5am to 8pm</li>
+                    <li>Thursday: 6am to 6pm</li>
+                    <li>Friday: 7am to 5pm</li>
+                </ul>
+                <p>We are always ready for your services</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h1 class="fot">QUICK LINKS</h1>
+        <ul class="foot">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <marquee behavior="scroll" direction="left">Gabtobx Tech Genius - Professional Web Design & Graphics Services</marquee>
+        <p class="lat">&copy; 2025 Designed by Amosun Toba Monday</p>
+    </footer>
+
+    <a class="whatsapp-btn" href="https://wa.me/2348121778762" title="Chat on WhatsApp"></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
